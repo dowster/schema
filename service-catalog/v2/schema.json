@@ -35,28 +35,28 @@
       "description": "A list of contacts related to the services. ",
       "type": "array",
       "items": {
-        "$ref": "#/$defs/contact"
+        "$ref": "#/definitions/contact"
       }
     },
     "links": {
       "description": "A list of links related to the services. ",
       "type": "array",
       "items": {
-        "$ref": "#/$defs/link"
+        "$ref": "#/definitions/link"
       }
     },
     "repos": {
       "description": "A list of code repositories related to the services. ",
       "type": "array",
       "items": {
-        "$ref": "#/$defs/repo"
+        "$ref": "#/definitions/repo"
       }
     },
     "docs": {
       "description": "A list of documentations related to the services. ",
       "type": "array",
       "items": {
-        "$ref": "#/$defs/doc"
+        "$ref": "#/definitions/doc"
       }
     },
     "tags": {
@@ -108,7 +108,7 @@
   },
   "additionalProperties": false,
   "required": ["schema-version", "dd-service"],
-  "$defs": {
+  "definitions": {
     "link": {
       "additionalProperties": false,
       "type": "object",

@@ -73,7 +73,7 @@
       "description": "A list of external links related to the services. ",
       "type": "array",
       "items": {
-        "$ref": "#/$defs/resource"
+        "$ref": "#/definitions/resource"
       },
       "additionalProperties": false
     },
@@ -111,7 +111,7 @@
   },
   "additionalProperties": false,
   "required": ["info"],
-  "$defs": {
+  "definitions": {
     "resource": {
       "additionalProperties": false,
       "type": "object",
